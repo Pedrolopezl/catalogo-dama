@@ -1,0 +1,16 @@
+git commit -am "make it better"  : Al realizar algun cambio de color, imagen, stock o algo se hace el commit
+git push heroku master : Para cargar los cambios en el host
+
+____
+git init
+git add .
+heroku login
+let preference = {
+    items: [],
+    back_urls: {
+      success: "http://localhost:3000/feedback",
+      failure: "http://localhost:3000/feedback",
+      pending: "http://localhost:3000/feedback",
+    },
+    auto_return: "approved",
+  };
